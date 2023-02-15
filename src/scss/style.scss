@@ -1,1 +1,19 @@
-@import './AboutPage/_MainSection';
+// Global SCSS imports
+  @import './reset';
+  @import './global';
+  @import './vars';
+
+// Global components
+  @import './header';
+  @import './footer';
+
+// Main Page sections
+  @import './mainPage/_clients';
+  @import './mainPage/_fujiMount';
+  @import './mainPage/_hero';
+  @import './mainPage/_humalayas';
+  @import './mainPage/_invite';
+  @import './mainPage/_montsera';
+  @import './mainPage/_products';
+  @import './mainPage/_tools';
+
