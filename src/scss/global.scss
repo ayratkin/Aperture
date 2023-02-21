@@ -1,3 +1,18 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppinss;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $containerWidth;
+  padding: 0 $containerPadding;
+  height: 100%;
+}
+
+.white-btn {
+  padding: 9px 20px;
+  border-radius: 14px;
+  color: black;
+  background-color: white;
 }

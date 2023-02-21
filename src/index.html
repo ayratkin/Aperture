@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html/head.html', {
-"title": "Главная"
-})
-<body>
-<!-- Header -->
-@@include('html/header.html', {})
+  @@include('html/head.html', { "title": "Главная" })
+  <body>
+    <!-- Header -->
+    @@include('html/header.html', {})
+    <!-- Hero Section -->
+    @@include('html/mainPage/_hero.html', {})
 
-<!-- Hero Section -->
-@@include('html/mainPage/_hero.html', {})
+    <!--@@include('html/mainPage/_clients.html', {})-->
+    <!--@@include('html/mainPage/_fujiMount.html', {})-->
+    <!--@@include('html/mainPage/_humalayas.html', {})-->
+    <!--@@include('html/mainPage/_invite.html', {})-->
+    <!--@@include('html/mainPage/_montsera.html', {})-->
+    <!--@@include('html/mainPage/_products.html', {})-->
+    <!--@@include('html/mainPage/_tools.html', {})-->
 
-<!--@@include('html/mainPage/_clients.html', {})-->
-<!--@@include('html/mainPage/_fujiMount.html', {})-->
-<!--@@include('html/mainPage/_humalayas.html', {})-->
-<!--@@include('html/mainPage/_invite.html', {})-->
-<!--@@include('html/mainPage/_montsera.html', {})-->
-<!--@@include('html/mainPage/_products.html', {})-->
-<!--@@include('html/mainPage/_tools.html', {})-->
+    <!-- Footer -->
+    @@include('html/footer.html', {})
 
-<!-- Footer -->
-@@include('html/footer.html', {})
-
-<script src="js/app.min.js"></script>
-</body>
+    <script src="js/app.min.js"></script>
+  </body>
 </html>
