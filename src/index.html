@@ -2,17 +2,18 @@
 <html lang="en">
   @@include('html/head.html', { "title": "Главная" })
   <body>
-    <!-- Header -->
-    @@include('html/header.html', {})
-    <!-- Hero Section -->
-    @@include('html/mainPage/_hero.html', {})
-
+    <div class="first-screen">
+      <!-- Header -->
+      @@include('html/header.html', {})
+      <!-- Hero Section -->
+      @@include('html/mainPage/_hero.html', {})
+    </div>
+    @@include('html/mainPage/_products.html', {})
     <!--@@include('html/mainPage/_clients.html', {})-->
     <!--@@include('html/mainPage/_fujiMount.html', {})-->
     <!--@@include('html/mainPage/_humalayas.html', {})-->
     <!--@@include('html/mainPage/_invite.html', {})-->
     <!--@@include('html/mainPage/_montsera.html', {})-->
-    <!--@@include('html/mainPage/_products.html', {})-->
     <!--@@include('html/mainPage/_tools.html', {})-->
 
     <!-- Footer -->
