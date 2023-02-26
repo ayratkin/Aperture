@@ -1,6 +1,3 @@
-import * as flsFunction from "./modules/functions.js";
-// import Swiper, { Navigation, Pagination } from 'swiper';
+import burgerMenu from './modules/burger.js'
 
-flsFunction.isWebP();
-
-// const swiper = new Swiper();
+burgerMenu()
